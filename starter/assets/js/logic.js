@@ -1,7 +1,7 @@
 // Get Dom Elements
 
 var questionsEl = document.querySelector("#questions");
-var timerEl = document.querySelector("#timer");
+var timerEl = document.querySelector("#time");
 var choicesEl = document.querySelector("#options");
 var submitBtn = document.querySelector("#submit-score");
 var startBtn = document.querySelector("#start");
@@ -113,11 +113,11 @@ function checkForEnter(event) {
         saveHighscore();
     }
 }
-//nameEl.onkeyup = checkForEnter;
+nameEl.onkeyup = checkForEnter;
 
-// Save users' score after clicking submit
+//Save users' score after clicking submit
 
-//submitBtn.onclick = saveHighscore;
+submitBtn.onclick = saveHighscore;
 
 // Start quiz after clicking start quiz
 
