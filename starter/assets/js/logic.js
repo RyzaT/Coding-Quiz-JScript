@@ -12,8 +12,9 @@ var reStartBtn = document.querySelector("#restart");
 // Quiz's initial state
 
 var currentQuestionIndex = 0;
-var time = questions.length * 15;
+var time = 60//questions.length * 15;
 var timerId;
+
 
 // Start quiz and hide frontpage
 
@@ -69,6 +70,7 @@ function questionClick() {
     }
 }
 
+
 // End quiz by hiding questions, stop timer and show final score
 
 function quizEnd() {
@@ -83,6 +85,7 @@ function quizEnd() {
 // End quiz if timer reaches 0
 
 function clockTick() {
+    //var time = 60;
     time--;
     timerEl.textContent = time;
     if (time <= 0) {
