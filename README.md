@@ -11,7 +11,13 @@ Here we have a task of creating a JavaScript web quiz. The following are the pre
 - The user is given an option to submit their score and name to a highscores page.
 
 
-## Installation N/A
+## Installation
+The repository can be found at href: https://github.com/RyzaT/Coding-Quiz-JScript
+
+This page can be found at href: https://ryzat.github.io/Coding-Quiz-JScript/
+
+assets/screenshot.png
+
 
 ## Usage 
 This repositorty is part of a bootcamp learning platform and is a part of my coursework. Please feel free to use it for your own studies.
