@@ -16,7 +16,7 @@ The repository can be found at href: https://github.com/RyzaT/Coding-Quiz-JScrip
 
 This page can be found at href: https://ryzat.github.io/Coding-Quiz-JScript/
 
-assets/screenshot.png
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")/screenshot.png
 
 
 ## Usage 
